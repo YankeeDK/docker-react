@@ -18,7 +18,7 @@ services:
         stdin_open: true
         build:
             context: .
-            dockerfile: dockerfile.dev
+            dockerfile: dockerfile-dev
         volumes:
             - /app/node_modules
             - .:/app
